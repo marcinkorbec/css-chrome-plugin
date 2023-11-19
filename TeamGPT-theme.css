@@ -6,6 +6,18 @@
 
 }
 
+.bg-\[--tg-sidebar\] {
+    background-color: #000037;
+}
+
+:is(.dark .dark\:bg-\[--tg-message-1\]) {
+    background-color: #0D3562 !important;
+}
+
+:is(.dark .dark\:bg-\[--tg-message-2\]) {
+    background-color: #0D3562 !important;
+}
+
 .whitespace-pre-wrap {
     font-size: 12px !important;
     color: white;
@@ -33,6 +45,35 @@ code {
 }
 
 .via-white {
-    --tw-gradient-to: #0D3562 var(--tw-gradient-to-positiono);
-    background-color: #0D3562;
+    background-color: transparent !important;
+}
+
+.bg-gradient-to-b {
+    background-color: transparent;
+}
+
+.bg-transparent {
+    background-color: white !important;
+}
+
+span {
+    color: orange;
+}
+
+#__next>div>div.h-full.__className_e66fe9>div>main>div.relative.flex.w-full.flex-grow.flex-col>div>div.flex.flex-grow.flex-col>div.relative.flex.flex-1.flex-row.overflow-hidden.bg-white.dark\:bg-\[--tg-message-2\]>div.dark-scrollbar.max-h-full.w-full.justify-center.overflow-x-hidden>div>div>div.flex.w-full.flex-col.gap-2>div>div.mb-2.flex.items-end.gap-2\.5>span.font-semibold.leading-5.text-gray-500.dark\:text-gray-300 {
+    color: orange !important;
+}
+
+#__next>div>div.h-full.__className_e66fe9>div>main>div.relative.flex.w-full.flex-grow.flex-col>div>div.flex.flex-grow.flex-col>div.relative.flex.flex-1.flex-row.overflow-hidden.bg-white.dark\:bg-\[--tg-message-2\]>div.absolute.bottom-0.left-0.right-0.z-main-input.border-transparent.bg-gradient-to-b.from-transparent.via-white.to-white.px-2.pt-6.dark\:border-white\/20.dark\:via-\[--tg-message-2\].dark\:to-\[--tg-message-2\].md\:pt- {
+    background-color: orange !important;
+}
+
+#__next>div>div.h-full.__className_e66fe9>div>main>div.relative.flex.w-full.flex-grow.flex-col>div>div.flex.flex-grow.flex-col>div.z-topbar.flex.w-full.flex-col>div.flex.min-h-\[2rem\].w-full.flex-row.items-center.justify-between.gap-3.bg-\[\#fff\]\/5.px-2.py-1.text-white {
+    background-color: #0D3562 !important;
+}
+
+.codeblock pre {
+    background-color: #000037 !important;
+    font-family: "Jetbrains Mono" !important;
+    font-size: 12px
 }
