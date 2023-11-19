@@ -30,6 +30,8 @@
 
 .prose p {
     color: yellow;
+    font-weight: 200;
+    font-size: 14px;
 }
 
 li {
