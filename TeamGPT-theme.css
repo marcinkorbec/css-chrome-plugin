@@ -1,0 +1,38 @@
+.bg-white {
+    --tw-bg-opacity: 1;
+    background-color: #0D3562;
+    color: yellow;
+    font-family: "Jetbrains Mono";
+
+}
+
+.whitespace-pre-wrap {
+    font-size: 12px !important;
+    color: white;
+}
+
+.bg-gray-50 {
+    background-color: #0D3562;
+
+}
+
+.prose p {
+    color: yellow;
+}
+
+li {
+    color: white;
+}
+
+p strong {
+    color: orange !important;
+}
+
+code {
+    color: lime !important;
+}
+
+.via-white {
+    --tw-gradient-to: #0D3562 var(--tw-gradient-to-positiono);
+    background-color: #0D3562;
+}
